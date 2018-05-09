@@ -1,0 +1,97 @@
+body {
+	margin: 5px;
+	font: Arial, sans-serif;
+}
+
+p {
+	line-height: 135%;  
+}
+
+dl {
+	margin: 1.25px;
+}
+
+dt {
+	padding: 1.75px;
+	font-weight: bold;
+}
+
+dd {
+	font-style:italic;
+}
+
+li {
+	line-height:125%;
+}
+
+ul {
+	list-style-type: square; 
+}
+
+nav {
+	border: 1px solid gray;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;  
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 3px 18px;
+	text-decoration: none;
+}
+
+abbr, blockquote, q {
+	font-style: italic;
+}
+
+.header {
+	font-size: 1.25em;
+	padding-left: 8px;
+	margin: 2px;
+	text-decoration: underline;
+ }
+ 
+.infobox {
+	border: 1px solid #a2a9b1;
+	border-spacing: 3px;
+	background-color: #f8f9fa;
+	margin: 8px 0 0.5em 1em;
+	padding: 0.2em;
+	float: right;
+	font-size: 88%;
+	line-height: 1.5em;
+}
+.footnote {
+	font-size: 0.9em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+table.movie-info {
+	border: 1px solid gray;
+	margin-left: 25em;
+	border-collapse: collapse;
+}
+
+tr.movie-info {
+	height: 50px;
+	background-color: #eaecf0;
+}
+
+.tdheader {
+	font-weight: bold;
+	font-style: italic;
+}
+
+table.movie-info tr > * {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+

@@ -1,0 +1,81 @@
+body {
+    background-image: url("images/background1.jpg");
+    min-height: 100%;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.top-menu {
+	overflow: hidden;
+	background-color: #2b06ad;
+}
+
+.top-menu a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/** Üstüne gelince ne olsun */
+.top-menu a:hover {
+	background-color: #07b2a9;
+	color: #60031b;
+}
+
+.top-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.imageshtml {
+	font-size: 14px;
+	text-align: center;
+}
+
+img.photo-erbakan {
+	float: right;
+	width: 237px;
+	height: 300px
+}
+
+img.logo {
+	width: 150px;
+	height: 180px;
+	clear: left;
+}
+
+img.imageshtml {
+	width: 250px;
+	clear: center;
+}
+
+.parts {
+	font-weight: bold;
+	margin-left: auto; 
+    margin-right: auto;
+	border: 1px solid blue;
+	/*border-collapse: collapse;*/
+}
+
+.subtab {
+	padding-left: 30px;
+}
+
+#headerHead{
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#headerText{
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  
+}
