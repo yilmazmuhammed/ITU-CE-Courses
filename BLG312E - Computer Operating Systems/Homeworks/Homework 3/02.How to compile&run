@@ -1,0 +1,5 @@
+HOW TO COMPILE & RUN
+
+You compile and run this command...
+
+gcc Hw3_Spring18.c && ./a.out sample_input.txt
