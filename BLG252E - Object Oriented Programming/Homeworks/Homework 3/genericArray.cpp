@@ -1,6 +1,6 @@
 /* HEADER : GENERICARRAY CLASS FUNCTIONS
  * AUTHOR : Muhammed YILMAZ
- * DATE   : 13.05.2018
+ * DATE   : 14.05.2018
  * E-MAIL : yilmazmu15@itu.edu.tr
  */
 
@@ -33,6 +33,10 @@ GenericArray<T>::GenericArray(int inMaxSize):maxSize(inMaxSize), total(0) {
     }
 }
 
+template <class T>
+GenericArray<T>::~GenericArray(){
+    delete [] elements;
+}
 template <class T>
 T GenericArray<T>::sum() {
 

@@ -1,6 +1,6 @@
 /* HEADER : GENERICARRAY CLASS HEADER
  * AUTHOR : Muhammed YILMAZ
- * DATE   : 13.05.2018
+ * DATE   : 14.05.2018
  * E-MAIL : yilmazmu15@itu.edu.tr
  */
 
@@ -18,7 +18,7 @@ public:
     T *elements;
     T total;
     explicit GenericArray(int inMaxSize);
-    ~GenericArray() = default;
+    ~GenericArray();
     T sum();
 };
 
